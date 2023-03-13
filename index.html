@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Обо мне</title>
+    <link rel="icon" href="atom.xml" type="image/icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="section">
+    <div class="container-fluid">
+         <!-- Заголовок-->
+         <div class="row">
+            <div class="col-lg-12" >
+                <h3 class="header text-center">
+                    <span>Привет, я Олеся</span>
+                    <span>Product / UX / UI designer</span>
+                </h3>
+            </div>
+         </div>
+
+        <!-- Блок с ссылками-->
+        <div class="row">
+            <!-- Синий блок-->
+           <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-12" >
+               <div class=" benefit" > 
+                <p>Принесите пользу вашему проекту</p>
+                <span class="footerBlockText" style="color:rgb(255, 255, 255);">Добро пожаловать</span>
+                <span class="footerBlockIcon glyphicon-rub" aria-hidden="true" style="color:rgb(255, 255, 255);"></span>
+               </div>
+           </div>
+
+           <!-- Общий блок из 3 блоков-->
+           <div class="block funcBlock col-lg-6 col-md-6 col-sm-6 col-xs-12" >
+
+               <!-- Фиолетовый блок-->
+               <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                   <div class=" about" > 
+                    <span class="footerBlockText" style="color:rgb(36, 36, 36);">Обо мне</span>
+                    <span class="footerBlockIcon glyphicon-rub" style="color:rgb(36, 36, 36);" aria-hidden="true" onclick="scrollToElement('blockAbout')"></span>
+                   </div>
+               </div>
+               <!-- Желтый блок-->
+               <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+                   <div class=" job" > 
+                    <span class="footerBlockText" style="color:rgb(36, 36, 36);"> Опыт работы</span>
+                    <span class="footerBlockIcon glyphicon-rub" style="color:rgb(36, 36, 36);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                   </div>
+               </div>
+               <!-- Серый блок-->
+               <div class="block col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                   <div class=" gray">
+                    <span class="footerBlockText" style="color:rgb(255, 255, 255);">Не вижу</span>
+                    <span class="footerBlockIcon glyphicon-rub" aria-hidden="true" style="color:rgb(255, 255, 255);" onclick="scrollToElement('s3')"></span>
+                   </div>
+               </div>
+            </div>
+        </div>
+
+         <!-- Блок с желтой ссылкой-->
+         <div class="row">
+            <div class="block col-lg-12" >
+                <div class="yellow" > 
+                    <span class="footerBlockText" style="color:rgb(36, 36, 36);">Компании</span>
+                    <span class="footerBlockIcon glyphicon-rub" style="color:rgb(36, 36, 36);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                </div>
+            </div>
+         </div>
+
+         <!-- Блок обо мне-->
+         <div class="row">
+            <div id="blockAbout" class="blockAbout col-lg-12" >
+                <p class = "textHeader">Обо мне</p>
+                <div class="row">
+                    <div class=" aboutImage col-lg-2 col-md-2 col-sm-2 col-xs-12" >
+                        <img src="img/multfilm_gomer.png"  alt="">
+                    </div>
+                    <div class=" aboutText col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                            quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni 
+                            dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia 
+                            non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                            quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+                            ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+                            consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate 
+                            velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+                            fugiat quo voluptas nulla pariatur?
+                            </p>
+                    </div> 
+                </div>
+            </div>
+         </div>
+
+         <!-- Блок о работе-->
+         <div class="row">
+            <div class="blockJob col-lg-12" >
+                <p class = "textHeaderJob">О чем-то</p>
+                <p class = "nameJob"><span>01</span>Пункт 1</p>
+                <p class = "descriptionJob">— Lorem ipsum dolor sit amet</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat non</p>
+                <p class = "descriptionJob">— Ut enim ad minima veniam</p>
+                <p class = "descriptionJob">— Neque porro quisquam est</p>
+                <p class = "descriptionJob">— Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+                
+                <p class = "nameJob"><span>02</span>Пункт 2</p>
+                <p class = "descriptionJob">— Lorem ipsum dolor sit amet</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat non</p>
+                <p class = "descriptionJob">— Ut enim ad minima veniam</p>
+                <p class = "descriptionJob">— Neque porro quisquam est</p>
+                <p class = "descriptionJob">— Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+            
+                <p class = "nameJob"><span>03</span>Пункт 3</p>
+                <p class = "descriptionJob">— Lorem ipsum dolor sit amet</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat non</p>
+                <p class = "descriptionJob">— Ut enim ad minima veniam</p>
+                <p class = "descriptionJob">— Neque porro quisquam est</p>
+                <p class = "descriptionJob">— Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+            
+                <p class = "nameJob"><span>04</span>Пункт 4</p>
+                <p class = "descriptionJob">— Lorem ipsum dolor sit amet</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat</p>
+                <p class = "descriptionJob">— Excepteur sint occaecat cupidatat non</p>
+                <p class = "descriptionJob">— Ut enim ad minima veniam</p>
+                <p class = "descriptionJob">— Neque porro quisquam est</p>
+                <p class = "descriptionJob">— Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+            </div>
+         </div>
+
+          <!-- Блок о чем-то-->
+          <div class="row">
+            <div class="blockN col-lg-12" >
+                <p class = "textHeaderJob">О чем-то</p>
+                <p class = "nameJob"><span>01</span>Название раздела</p>
+                <p class = "descriptionN">— Lorem ipsum dolor sit amet</p>
+                <p class = "descriptionN">— Excepteur sint occaecat cupidatat</p>
+                <p class = "descriptionN">— Excepteur sint occaecat cupidatat non</p>
+                <p class = "descriptionN">— Ut enim ad minima veniam</p>
+                <p class = "descriptionN">— Neque porro quisquam est</p>
+                <p class = "descriptionN">— Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+                <p class = "descriptionN">— Lorem ipsum dolor sit amet</p>
+                <p class = "descriptionN">— Excepteur sint occaecat cupidatat</p>
+                <p class = "descriptionN">— Excepteur sint occaecat cupidatat non</p>
+                <p class = "descriptionN">— Ut enim ad minima veniam</p>
+                <p class = "descriptionN">— Neque porro quisquam est</p>
+                <p class = "descriptionN">— Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+                <p class = "descriptionN">— Lorem ipsum dolor sit amet</p>
+                <p class = "descriptionN">— Excepteur sint occaecat cupidatat</p>
+                <p class = "descriptionN">— Excepteur sint occaecat cupidatat non</p>
+                <p class = "descriptionN">— Ut enim ad minima veniam</p>
+                <p class = "descriptionN">— Neque porro quisquam est</p>
+                <p class = "descriptionN">— Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+            </div>
+         </div>
+
+           <!-- Блок компаний-->
+         <div class="row">
+            <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
+                <div class="whiteCompany" > 
+                    <span class="headerBlockTextLeft" style="color:rgb(36, 36, 36);">Текст</span>
+                    <span class="headerBlockTextRight" style="color:rgb(36, 36, 36);">MegaFon</span>
+                    <div class="block logoCompany col-lg-12" > 
+                        <img  class="logoCompanyImg" src="img/multfilm_gomer.png" alt="">
+                    </div>
+                    <span class="footerBlockText" style="color:rgb(36, 36, 36);">Мегафон</span>
+                    <span class="footerBlockIcon glyphicon-rub" style="color:rgb(36, 36, 36);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                </div>
+            </div>
+            
+            <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
+                <div class="blackCompany" > 
+                    <span class="headerBlockTextLeft" style="color:rgb(255, 255, 255);">Текст</span>
+                    <span class="headerBlockTextRight" style="color:rgb(255, 255, 255);">Dom-RF</span>
+                    <div class="block logoCompany col-lg-12" > 
+                        <img class="logoCompanyImg" src="img/multfilm_gomer.png" alt="">
+                    </div>
+                    <span class="footerBlockText" style="color:rgb(255, 255, 255);">Дом РФ</span>
+                    <span class="footerBlockIcon glyphicon-rub" style="color:rgb(255, 255, 255);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                </div>
+            </div>
+
+         </div>
+
+             <!-- Блок компаний-->
+             <div class="row">
+                <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
+                    <div class="whiteCompany" > 
+                        <span class="headerBlockTextLeft" style="color:rgb(36, 36, 36);">Текст</span>
+                        <span class="headerBlockTextRight" style="color:rgb(36, 36, 36);">MegaFon</span>
+                        <div class="block logoCompany col-lg-12" > 
+                            <img  class="logoCompanyImg" src="img/multfilm_gomer.png" alt="">
+                        </div>
+                        <span class="footerBlockText" style="color:rgb(36, 36, 36);">Мегафон</span>
+                        <span class="footerBlockIcon glyphicon-rub" style="color:rgb(36, 36, 36);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                    </div>
+                </div>
+                
+                <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
+                    <div class="blackCompany" > 
+                        <span class="headerBlockTextLeft" style="color:rgb(255, 255, 255);">Текст</span>
+                        <span class="headerBlockTextRight" style="color:rgb(255, 255, 255);">Dom-RF</span>
+                        <div class="block logoCompany col-lg-12" > 
+                            <img class="logoCompanyImg" src="img/multfilm_gomer.png" alt="">
+                        </div>
+                        <span class="footerBlockText" style="color:rgb(255, 255, 255);">Дом РФ</span>
+                        <span class="footerBlockIcon glyphicon-rub" style="color:rgb(255, 255, 255);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                    </div>
+                </div>
+    
+             </div>
+           
+                      <!-- Блок компаний-->
+             <div class="row">
+                <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
+                    <div class="whiteCompany" > 
+                        <span class="headerBlockTextLeft" style="color:rgb(36, 36, 36);">Текст</span>
+                        <span class="headerBlockTextRight" style="color:rgb(36, 36, 36);">MegaFon</span>
+                        <div class="block logoCompany col-lg-12" > 
+                            <img  class="logoCompanyImg" src="img/multfilm_gomer.png" alt="">
+                        </div>
+                        <span class="footerBlockText" style="color:rgb(36, 36, 36);">Мегафон</span>
+                        <span class="footerBlockIcon glyphicon-rub" style="color:rgb(36, 36, 36);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                    </div>
+                </div>
+                
+                <div class="block col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
+                    <div class="blackCompany" > 
+                        <span class="headerBlockTextLeft" style="color:rgb(255, 255, 255);">Текст</span>
+                        <span class="headerBlockTextRight" style="color:rgb(255, 255, 255);">Dom-RF</span>
+                        <div class="block logoCompany col-lg-12" > 
+                            <img class="logoCompanyImg" src="img/multfilm_gomer.png" alt="">
+                        </div>
+                        <span class="footerBlockText" style="color:rgb(255, 255, 255);">Дом РФ</span>
+                        <span class="footerBlockIcon glyphicon-rub" style="color:rgb(255, 255, 255);" aria-hidden="true" onclick="scrollToElement('s3')"></span>
+                    </div>
+                </div>
+    
+             </div>
+
+              <!-- Блок контактов-->
+             <div class="row">
+                <div class="block col-lg-12" >
+                    <div class="contacts" > 
+                            <p class = "contactsHeader">Контакты</p>
+                            <h1 class = "contactsText">У вас есть вопрос, идея или проект, в котором вам нужна помощь? <br> Свяжитесь со мной :)</h1>
+
+                         <div class="row">
+                           <div class="block col-lg-12" > 
+                            
+
+                           </div>
+                         </div>
+                    </div>
+                </div>
+             </div>
+    </div>
+
+</div>
+<script>
+    function scrollToElement(id) {
+      // Найдите элемент, к которому нужно осуществить переход
+      const element = document.querySelector(`#${id}`);
+      // Выполните переход с плавной анимацией
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
+
