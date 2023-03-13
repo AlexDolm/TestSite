@@ -1,0 +1,285 @@
+
+
+/* Основные настройки*/
+@font-face {
+    font-family: 'ofont_ru_Raleway';
+    src: url('../fonts/ofont_ru_Raleway.eot');
+    src: url('../fonts/ofont_ru_Raleway.eot') format('embedded-opentype'),
+         url('../fonts/ofont_ru_Raleway.woff2') format('woff2'),
+         url('../fonts/ofont_ru_Raleway.woff') format('woff'),
+         url('../fonts/ofont_ru_Raleway.ttf') format('truetype'),
+         url('../fonts/ofont_ru_Raleway.svg#ofont_ru_Raleway') format('svg');
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'ofont_ru_Raleway';
+}
+
+.section {
+    background-color: rgb(15, 16, 17);
+}
+
+.block {
+    padding:4px;
+}
+
+/*footer блоков*/
+.footerBlockText {
+    padding:1px;
+    position: absolute;
+    bottom: 48px;
+    font-size: 20px;
+    padding-left: 48px;
+}
+
+.footerBlockIcon {
+    margin-top: 20px;
+    padding:1px;
+    position: absolute;
+    bottom: 48px;
+    right: 48px;
+    font-size: 30px;
+    padding-left: 48px;
+    font-weight: 900;
+}
+
+/* Заголовок*/
+.header {
+    margin: 100px auto;
+}
+
+.header span {
+    display: block;
+    color: white;
+    line-height: 1.4; 
+    font-size: 48px;
+}
+
+/* Польза проекту*/
+.benefit {
+    background-color: rgba(30, 32, 223, 1);
+    border-radius: 80px;
+    height: 480px;
+}
+
+.textAnimation {
+    color: white;
+    font-size: 64px;
+    padding-top: 170px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.textAnimation div {
+   display: flex;
+   width: 600%;
+   animation: textAnimation 50s linear infinite;
+}
+
+.textAnimation p {
+    white-space: nowrap;
+    width: 150%;
+    
+ }
+
+@keyframes textAnimation {
+
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(-99%);
+    }
+    
+}
+
+
+
+/* 
+
+.benefit p {
+    color: white;
+    font-size: 38px;
+    padding-top: 170px;
+    text-align: center;
+}
+*/
+
+/* Блоки функций*/
+.funcBlock {
+    margin: -4px;
+}
+
+/* Обо мне*/
+.about {
+    background-color: rgb(207, 207, 255, 1);
+    height: 235px;
+    border-radius: 80px;
+}
+
+/* О работе*/
+.job {
+    background-color: rgb(255, 255, 255, 1);
+    height: 235px;
+    border-radius: 80px;
+}
+
+/* Скиллы*/
+.gray {
+    background-color: rgb(38, 40, 43, 1);
+    height: 238px;
+    border-radius: 80px;
+}
+
+/* Контакты*/
+.yellow {
+    background-color: rgb(243, 240, 144);
+    height: 235px;
+    border-radius: 80px;
+}
+
+/* Обо мне блок*/
+.blockAbout{
+    background-color: rgb(38, 40, 43, 1);
+    border-radius: 80px;
+    padding: 48px;
+    margin-top: 4px;
+}
+
+.textHeader{
+    color: rgb(192, 192, 255, 1);
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.aboutImage {
+    margin-bottom: 48px;
+    
+}
+
+.aboutImage img{
+    background-color:white;
+    width: 100%;
+    border-radius: 80px;
+    
+}
+
+.aboutText {
+    color: rgb(192, 192, 255, 1);
+    font-size: 26px;
+}
+
+.blockJob{
+    background-color: rgb(38, 40, 43, 1);
+    border-radius: 80px;
+    padding: 48px;
+    margin-top: 8px;
+}
+
+.textHeaderJob{
+    color: rgb(255, 194, 253, 1);
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.nameJob{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: rgb(255, 194, 253, 1);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.nameJob span{
+    margin-right: 20px;
+}
+
+
+.blockN {
+    background-color: rgb(38, 40, 43, 1);
+    border-radius: 80px;
+    padding: 48px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.descriptionJob{
+    color: rgb(255, 194, 253, 1);
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 33px;
+}
+
+
+.descriptionN{
+    color: rgb(255, 194, 253, 1);
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    margin-left: 33px;
+}
+
+
+/*блок компаний*/
+
+.blackCompany{
+    background-color: rgb(36, 36, 36);
+    height: 360px;
+    border-radius: 80px;
+    padding-top: 48px;
+}
+
+.whiteCompany{
+    background-color: rgb(255, 255, 255);
+    height: 360px;
+    border-radius: 80px;
+    padding-top: 48px;
+}
+
+.logoCompanyImg {
+    margin-top: 40px;
+}
+
+.logoCompanydsass {
+
+    text-align: center;
+
+}
+
+
+/*header блоков*/
+
+.headerBlockTextLeft {
+    font-size: 10px;
+    padding-left: 48px;
+    font-size: 20px;
+}
+
+.headerBlockTextRight {
+    font-size: 10px;
+    right: 48px;
+    position: absolute;
+    font-size: 20px;
+}
+
+/*Контакты*/
+.contacts {
+    background-color: rgb(36, 36, 36);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.contactsHeader {
+    color: rgb(243, 240, 144);
+    font-size: 10px;
+}
+
+.contactsText{
+    color: rgb(243, 240, 144);
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 1000;
+}
